@@ -49,8 +49,8 @@ p{margin:0;color:var(--muted);line-height:1.5}
 /* ====== EDIT HERE ======
    GAME_URL: the Apps Script web app link (Implementar → Gestionar implementaciones), ending in /exec.
    GUEST_URL: link for guests with an invite code (can be the same deployment as GAME_URL). Leave '' to hide the button. */
-const GAME_URL = 'https://script.google.com/macros/s/AKfycbwGco1jLkfwm7yZlliwDMNurGKlXvveMf4Jt1D-25szmC2rS4RhSP2S4AC253T-Kibo/exec';
-const GUEST_URL = 'https://script.google.com/macros/s/AKfycbwGco1jLkfwm7yZlliwDMNurGKlXvveMf4Jt1D-25szmC2rS4RhSP2S4AC253T-Kibo/exec';
+const GAME_URL = 'https://script.google.com/macros/s/AKfycbyIDQ2UuNySE315aYshDz5GxipEUyf4YQrzeDNezvd3-tKZeSilBMVk5bDFx0u8Jm2siA/exec';
+const GUEST_URL = 'https://script.google.com/macros/s/AKfycbyIDQ2UuNySE315aYshDz5GxipEUyf4YQrzeDNezvd3-tKZeSilBMVk5bDFx0u8Jm2siA/exec';
 /* ======================= */
 document.getElementById('play').href = GAME_URL;
 if (GUEST_URL) { const g = document.getElementById('guest'); g.href = GUEST_URL; g.hidden = false; document.getElementById('guestTxt').hidden = false; }
